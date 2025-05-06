@@ -1,0 +1,202 @@
+Button {
+    margin: 10px;
+    min-width: 180px;
+    height: 50px;
+    border-radius: var(--button-border-radius);
+    border-width: var(--button-border-width);
+    font-size: 16px;
+    color: var(--button-color);
+}
+
+.btn--primary {
+    font-size: 20px;
+    background-color: var(--button-background-color);
+}
+
+.btn--secondary {
+    height: 40px;
+    background-color: blue;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.btn--danger {
+    background-color: red;
+}
+
+.btn--warning {
+    background-color: yellow;
+    color: black;
+}
+
+.btn--success {
+    background-color: green;
+}
+
+.btn--primary:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--primary:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--primary:checked {
+}
+
+.btn--primary:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--primary:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--secondary:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--secondary:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--secondary:checked {
+}
+
+.btn--secondary:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--secondary:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--outline:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--outline:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--outline:checked {
+}
+
+.btn--outline:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--outline:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--warning:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--warning:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--warning:checked {
+}
+
+.btn--warning:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--warning:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--danger:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--danger:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--danger:checked {
+}
+
+.btn--danger:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--danger:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--success:hover {
+    background-color: rgb(61, 148, 255);
+}
+
+.btn--success:active {
+    background-color: rgb(228, 170, 22);
+}
+
+.btn--success:checked {
+}
+
+.btn--success:checked {
+    background-color: rgb(80, 237, 0);
+}
+
+.btn--success:disabled {
+    background-color: rgb(69, 82, 96);
+}
+
+.btn--large {
+    font-size: 20px;
+    height: 33px;
+}
+
+.btn--medium {
+    font-size: 16px;
+    height: 28px;
+}
+
+.btn--small {
+    font-size: 12px;
+    height: 22px;
+}
+
+.btn--tag-main {
+}
+
+.btn--tag-sub {
+}
+
+.icon_only {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/UI/Icons/settings_48dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png?fileID=21300000&guid=0bfbce2cccd36da45929d50ca8a83633&type=3#settings_48dp_E3E3E3_FILL0_wght400_GRAD0_opsz48");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: auto;
+    min-width: 50px;
+}
+
+.icon_only:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon_only:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon_only:checked {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon_only:disabled {
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(125, 125, 125);
+}

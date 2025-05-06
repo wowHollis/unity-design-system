@@ -1,0 +1,124 @@
+.unity-radio-button-group__container {
+    flex-direction: row;
+}
+
+.areaButton {
+    flex-direction: row;
+    border-left-color: rgba(71, 71, 71, 0);
+    border-right-color: rgba(71, 71, 71, 0);
+    border-top-color: rgba(71, 71, 71, 0);
+    border-bottom-color: rgba(71, 71, 71, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgb(72, 72, 148);
+    color: rgb(255, 255, 255);
+}
+
+.areaButton .unity-button__image {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    background-image: url("project://database/Assets/Resources/icons/arrow_forward.png?fileID=2800000&guid=f0e65686097b02a41b898a1b30dc0e05&type=3#arrow_forward");
+}
+
+.areaButton:checked {
+    background-color: rgb(0, 15, 143);
+}
+
+.areaButton:checked > .unity-button__image {
+    scale: -1 1;
+}
+
+.procsButton > .unity-radio-button__input > .unity-radio-button__checkmark-background {
+    flex-direction: row;
+    border-left-color: rgba(71, 71, 71, 0);
+    border-right-color: rgba(71, 71, 71, 0);
+    border-top-color: rgba(71, 71, 71, 0);
+    border-bottom-color: rgba(71, 71, 71, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-image: resource('icons/arrow_forward');
+}
+
+#unity-checkmark {
+    display: none;
+}
+
+.procsButton > .unity-label {
+    flex-direction: row;
+    border-left-color: rgba(71, 71, 71, 0);
+    border-right-color: rgba(71, 71, 71, 0);
+    border-top-color: rgba(71, 71, 71, 0);
+    border-bottom-color: rgba(71, 71, 71, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgb(72, 72, 148);
+    color: rgb(255, 255, 255);
+    flex-grow: 0;
+    -unity-text-align: middle-left;
+    flex-shrink: 1;
+    min-width: initial;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.procsButton {
+    flex-direction: row;
+    border-left-color: rgba(71, 71, 71, 0);
+    border-right-color: rgba(71, 71, 71, 0);
+    border-top-color: rgba(71, 71, 71, 0);
+    border-bottom-color: rgba(71, 71, 71, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgb(72, 72, 148);
+    align-content: auto;
+    align-self: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.procsButton:checked > .unity-radio-button__input > .unity-radio-button__checkmark-background {
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: resource('icons/arrow_forward');
+    scale: -1 1;
+}
+
+.unity-radio-button__checkmark:checked {
+    display: none;
+}
+
+.unity-button {
+}

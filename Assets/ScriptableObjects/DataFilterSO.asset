@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5484cb4241b52534495c05fc8b573eab, type: 3}
+  m_Name: DataFilterSO
+  m_EditorClassIdentifier: 
+  areas:
+  - label: Area 1
+    code: 
+    processes:
+    - label: 1Proces 1
+      code: 
+    - label: 1Proces 2
+      code: 
+    - label: 1Proces 3
+      code: 
+  - label: Area 2
+    code: 
+    processes:
+    - label: 2APros 1
+      code: 
+    - label: 2APros 2
+      code: 
+    - label: 2APros 3
+      code: 
+  - label: Area 3
+    code: 
+    processes:
+    - label: 3Procs 1
+      code: 
+    - label: 3Procs 2
+      code: 
+  - label: Area 4
+    code: 
+    processes:
+    - label: 4Procs 1
+      code: 
+    - label: 4Procs 2
+      code: 

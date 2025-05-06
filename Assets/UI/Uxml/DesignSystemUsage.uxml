@@ -1,0 +1,59 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/DesignSystem.uss?fileID=7433441132597879392&amp;guid=21db954319c8f714eb032343ae653970&amp;type=3#DesignSystem" />
+    <Style src="project://database/Assets/UI/Uss/SimpleButton.uss?fileID=7433441132597879392&amp;guid=fab6ca7a41874071a4fa3bdcd9c502fd&amp;type=3#SimpleButton" />
+    <Style src="project://database/Assets/UI/Uss/IconButton.uss?fileID=7433441132597879392&amp;guid=ec329a4895cb4e241bc1feff54e72b46&amp;type=3#IconButton" />
+    <ui:VisualElement name="Button" style="flex-grow: 0; flex-direction: row; align-items: flex-start;">
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Primary" />
+            <ui:Button text="Button" class="btn--primary" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Secondary" />
+            <ui:Button text="Button" class="btn btn--secondary" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Outline" />
+            <ui:Button text="Button" class="btn btn--outline" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Danger" />
+            <ui:Button text="Button" class="btn btn--danger" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Warning" />
+            <ui:Button text="Button" class="btn btn--warning" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Success" />
+            <ui:Button text="Button" class="btn btn--success" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row; align-items: flex-start;">
+        <ui:VisualElement style="flex-grow: 0; align-items: center;">
+            <ui:Label text="Size" />
+            <ui:Button text="Large" class="btn btn--primary btn--large" style="width: 244px;" />
+            <ui:Button text="Miduim" class="btn btn--primary btn--medium" style="width: 244px;" />
+            <ui:Button text="Small" class="btn btn--primary btn--small" style="width: 244px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 0; align-items: center;">
+            <ui:Label text="With Icon" />
+            <ui:Button text="Button" icon-image="project://database/Assets/Resources/icons/arrow_forward.png?fileID=21300000&amp;guid=f0e65686097b02a41b898a1b30dc0e05&amp;type=3#arrow_forward" class="btn btn--icon btn--primary btn--outline" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Tag" style="flex-grow: 0;">
+        <ui:Label text="Tag" />
+        <ui:VisualElement name="Selected" style="flex-grow: 1;">
+            <ui:ToggleButtonGroup label="Toggle Button Group">
+                <ui:Button text="Button" class="btn" />
+                <ui:Button text="Button" class="btn" />
+            </ui:ToggleButtonGroup>
+            <ui:ToggleButtonGroup label="Toggle Button Group">
+                <ui:Button text="Button" class="btn" />
+                <ui:Button text="Button" class="btn" />
+            </ui:ToggleButtonGroup>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0; align-items: flex-start; flex-direction: row; background-color: rgb(29, 89, 132);">
+        <ui:Button name="Button" selectable="true" class="icon_only" />
+    </ui:VisualElement>
+</ui:UXML>

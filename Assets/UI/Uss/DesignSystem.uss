@@ -1,0 +1,11 @@
+:root {
+    --button-background-color: rgb(1, 71, 182);
+    --button-color: white;
+    --button-border-radius: 5px;
+    --button-border-width: 1px;
+    --button-height: 50px;
+}
+
+.unity-button--with-icon-only > Image {
+    background-color: rgb(6, 255, 0);
+}
